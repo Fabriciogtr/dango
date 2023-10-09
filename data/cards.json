@@ -1,0 +1,82 @@
+[
+  {
+    "price": 24.99,
+    "description": "Rejuvenate your skin with this luxurious night cream. Formulated with rare botanical extracts and hyaluronic acid to leave your skin feeling refreshed in the morning.",
+    "title": "Luxury Night Cream",
+    "seed": "randomSeed123",
+    "fontSize": 24,
+    "amount": 1
+  },
+  {
+    "price": 9.99,
+    "description": "Keep your hands soft and smooth with this organic hand cream. Made with natural ingredients like shea butter and essential oils for all-day hydration.",
+    "title": "Organic Hand Cream",
+    "seed": "randmSeed123",
+    "fontSize": 24,
+    "amount": 1
+  },
+  {
+    "price": 34.99,
+    "description": "Fight the signs of aging with our anti-aging face cream. Enriched with collagen-boosting peptides and vitamins to reduce wrinkles and promote youthful skin.",
+    "title": "Anti-Aging Face Cream",
+    "seed": "ndomSeed123",
+    "fontSize": 24,
+    "amount": 1
+  },
+  {
+    "price": 15.49,
+    "description": "Experience the healing power of our soothing aloe vera gel. Perfect for sunburn relief, moisturizing, and maintaining healthy skin.",
+    "title": "Aloe Vera Gel",
+    "seed": "randomSeed12",
+    "fontSize": 24,
+    "amount": 1
+  },
+  {
+    "price": 19.95,
+    "description": "Achieve a radiant complexion with our brightening face serum. Packed with antioxidants and vitamin C to fade dark spots and even out skin tone.",
+    "title": "Brightening Face Serum",
+    "seed": "randomSee23",
+    "fontSize": 24,
+    "amount": 1
+  },
+  {
+    "price": 11.99,
+    "description": "Nourish your dry and damaged hair with our argan oil hair mask. Deep conditioning for salon-quality results at home.",
+    "title": "Argan Oil Hair Mask",
+    "seed": "randomSd123",
+    "fontSize": 24,
+    "amount": 1
+  },
+  {
+    "price": 8.99,
+    "description": "Keep your lips soft and kissable with our natural lip balm. Infused with beeswax and essential oils for long-lasting moisture.",
+    "title": "Natural Lip Balm",
+    "seed": "randomSeed",
+    "fontSize": 24,
+    "amount": 1
+  },
+  {
+    "price": 29.99,
+    "description": "Revitalize tired eyes with our under-eye cream. Formulated with caffeine and peptides to reduce puffiness and dark circles.",
+    "title": "Under-Eye Cream",
+    "seed": "randSeed123",
+    "fontSize": 24,
+    "amount": 1
+  },
+  {
+    "price": 14.5,
+    "description": "Soothe dry and irritated skin with our lavender-scented body lotion. Infused with calming lavender essential oil for relaxation.",
+    "title": "Lavender Body Lotion",
+    "seed": "randoeed123",
+    "fontSize": 24,
+    "amount": 1
+  },
+  {
+    "price": 7.99,
+    "description": "Say goodbye to dry, chapped hands with our moisturizing hand cream. Perfect for daily use and on-the-go hydration.",
+    "title": "Moisturizing Hand Cream",
+    "seed": "rndomSeed23",
+    "fontSize": 24,
+    "amount": 1
+  }
+]
