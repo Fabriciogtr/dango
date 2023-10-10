@@ -14,7 +14,7 @@ export default function Card({
 return (
   <div className='border-2 border-white border-solid flex flex-col px-5 pt-8 pb-10 gap-3 w-60 hover:border-green-300'>
     <img className="rounded-lg self-center w-full" src={`https://picsum.photos/seed/${seed}/180/100`} alt="card img"></img>
-    <h1 className={`text-start font-bold text-white mb-3 cursor-pointer`}
+    <h1 className={`text-start font-bold text-white mb-3 cursor-pointer break-words`}
       style={{fontSize: `${fontSize}px`}}
       onClick={onClick}
       >

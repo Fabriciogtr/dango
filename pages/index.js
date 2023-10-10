@@ -59,20 +59,22 @@ export default function Home() {
     }, { totalAmount: 0, totalPrice: 0 });
   }, [cards])
 
+  const inputStyles = 'px-1 rounded-sm text-black'
+
   return (
     <div className='bg-black min-h-screen min-w-screen text-white flex flex-col justify-center items-center py-10'>
       <div className='w-full text-white flex flex-row text-black justify-center gap-10'>
         <div className={`flex flex-col gap-3 ${editing ? '' : 'hidden'}`}>
           <h1 className='font-bold text-lg text-white'>Edit selected card</h1>
-          <input className="px-1 rounded-sm text-black" type='text' value={cards[editionIndex]?.title} onChange={handleTitle}/>
-          <input className="px-1 rounded-sm text-black" type='number' min={0} value={cards[editionIndex]?.fontSize} onChange={handleFontSize}/>
+          <input className={inputStyles} type='text' value={cards[editionIndex]?.title} onChange={handleTitle}/>
+          <input className={inputStyles} type='number' min={0} value={cards[editionIndex]?.fontSize} onChange={handleFontSize}/>
         </div>
         <div className='flex flex-col gap-3'>
           <h1 className='font-bold text-lg text-white'>Add new card</h1>
-          <input className="px-1 rounded-sm" type='text' ref={newCardRef.title} placeholder='Title'/>
-          <textarea className="px-1 rounded-sm" ref={newCardRef.description} placeholder='Description'/>
-          <input className="px-1 rounded-sm" type='text' ref={newCardRef.seed} placeholder='Seed... can be whatever'/>
-          <input className="px-1 rounded-sm" type='number' ref={newCardRef.price} min={0} placeholder='Price'/>
+          <input className={inputStyles} type='text' ref={newCardRef.title} placeholder='Title'/>
+          <textarea className={inputStyles} ref={newCardRef.description} placeholder='Description'/>
+          <input className={inputStyles} type='text' ref={newCardRef.seed} placeholder='Seed... can be whatever'/>
+          <input className={inputStyles} type='number' ref={newCardRef.price} min={0} placeholder='Price'/>
           <button className='bg-white w-12 self-center text-black' onClick={addCard}> Add </button>
         </div>
         <div className='flex flex-col gap-3'>
