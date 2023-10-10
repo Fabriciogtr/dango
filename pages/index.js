@@ -63,7 +63,7 @@ export default function Home() {
 
   return (
     <div className='bg-black min-h-screen min-w-screen text-white flex flex-col justify-center items-center py-10'>
-      <div className='w-full text-white flex flex-row text-black justify-center gap-10'>
+      <div className='w-full text-white flex flex-col md:flex-row text-black justify-center gap-10 px-5'>
         <div className={`flex flex-col gap-3 ${editing ? '' : 'hidden'}`}>
           <h1 className='font-bold text-lg text-white'>Edit selected card</h1>
           <input className={inputStyles} type='text' value={cards[editionIndex]?.title} onChange={handleTitle}/>
