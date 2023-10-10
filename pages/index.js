@@ -32,10 +32,10 @@ export default function Home() {
     setEditionIndex(index)
   }
 
-  const handleAmount = (e, index) => {
+  const handleAmount = (evt, index) => {
     e.preventDefault()
     const updateCards = [...cards]
-    updateCards[index].amount = e.target.value
+    updateCards[index].amount = evt.target.value
     setCards(updateCards)
   }
 
